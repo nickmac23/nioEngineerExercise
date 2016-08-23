@@ -34,7 +34,7 @@ var Analytics = class {
 
   upDateView() {
     var analytics = this.analytics()
-    document.getElementById(this.divId).innerHTML = '<h1> mean fruitConunt/shopperCount: ' + analytics.aveFruitPerShopper + '</h1>'
+    document.getElementById(this.divId).innerHTML = '<h1>' + analytics.aveFruitPerShopper + ' fruit per shopper </h1>'
   }
 
 };
