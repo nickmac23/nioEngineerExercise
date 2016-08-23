@@ -21,7 +21,7 @@ var Analytics = class {
   saveData(cart){
     this.shopperCount++
     cart.map(item => {
-      if(item.type === 'fruit') this.fruitCount++
+      if(item.type === 'fruit') this.fruitCount += item.quantity
     })
   }
 
